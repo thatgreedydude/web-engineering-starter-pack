@@ -1,6 +1,7 @@
 body {
     max-width: 800px;
     margin: 0 auto;
+    font-family: "Times New Roman", Times, serif; 
   }
   
   .sender-column {
@@ -14,6 +15,12 @@ body {
   h2 {
     font-size: 1.3em;
   }
+
+  h3 {
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   
   p,ul,ol,dl,address {
     font-size: 1.1em;
@@ -23,3 +30,17 @@ body {
     line-height: 1.5;
   }
   
+  .dotted-underline {
+    text-decoration: underline dotted;
+  }
+
+  .link {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  .p-dance {
+      padding-left: 40px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
